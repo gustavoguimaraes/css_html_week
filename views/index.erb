@@ -3,19 +3,21 @@
 <h2>RGBA</h2>
 <p>"Red Green Blue Alpha transparency"
 	<ul>
-		<li>RGB
+		<li>RGB</li>
+		<ul>
+			<li>Values range from 0 to 255</li>
+			<li>0 is no color and 255 is all the color</li>
+			<li>(This isn't arbitrary, there are 256 possibilities to configure eight bits)</li>
+			<li>Due to these properties:</li>
 			<ul>
-				<li>values range from 0 to 255</li>
-				<li>0 is no color and 255 is all the color</li>
-				<li>(This isn't arbitrary, there are 256 possibilities to configure eight bits)</li>
-				<li>Due to these properties:</li>
-				<ul>
-					<li>rgb(0,0,0) is <span class="black">black</span></li>
-					<li>rgb(255,255,255) is <span class="white">white</span></li>
-				</ul>
+				<li>rgb(0,0,0) is <span class="black">black</span></li>
+				<li>rgb(255,255,255) is <span class="white">white</span></li>
 			</ul>
-		<li>"A" values range from 0 to 1</li>
-		<li>0 is "completely transparent" and 1 is "no transparency"</li>
+		</ul>
+		<li>A</li>
+		<ul>
+		<li>Values range from 0 to 1</li>
+		<li>0 is completely transparent and 1 is completely opaque</li>
 		<li>Due to these properties:</li>
 			<ul>
 				<li>rgb(0,0,0) is <span class="black">black</span></li>
