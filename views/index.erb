@@ -1,71 +1,66 @@
 <h1>Colors</h1>
 
-<div>
-	<h2>RGBA</h2>
-		<p>"Red Green Blue Alpha channel"</p>
+<h2>RGBA - "Red Green Blue Alpha channel"</h2>
+<ul class="RGBA">
+	<li>"RGB"</li>
 		<ul>
-			<li>"RGB"</li>
-			<ul>
-				<li>Values range from 0 to 255</li>
-				<li>0 is no color and 255 is all the color</li>
-				<li>(This isn't arbitrary, there are 256 possibilities to configure eight bits)
-				</li>
-				<li>Due to these properties:</li>
+			<li>Values range from 0 to 255</li>
+			<li>0 is no color and 255 is all the color</li>
+			<li>(This isn't arbitrary, there are 256 possibilities to configure eight bits)
+			</li>
+			<li>Due to these properties:</li>
 				<ul>
 					<li>rgb(0,0,0) is <span class="black">black</span></li>
 					<li>rgb(255,255,255) is <span class="white">white</span></li>
 				</ul>
-			</ul>
-			<li>"A"</li>
+		</ul>
+	<li>"A"</li>
+		<ul>
+			<li>Alpha channel allows for alpha compositing and this is the process of combining an image with its background</li>
+			<li>Values range from 0 to 1</li>
+			<li>0 is completely transparent and 1 is completely opaque</li>
+			<li>Due to these properties:</li>
 				<ul>
-					<li>Alpha channel allows for alpha compositing and this is the process of combining an image with its background</li>
-					<li>Values range from 0 to 1</li>
-					<li>0 is completely transparent and 1 is completely opaque</li>
-					<li>Due to these properties:</li>
-						<ul>
-							<li>rgba(0,0,255,1) is <span class="solid_blue">solid blue</span></li>
-							<li>rgba(0,0,255,0.6) is <span class="trans_white">transparent blue</span></li>
-							<li>rgba(0,0,255,0.4) is <span class="very_trans_blue">even more transparent</span></li>
-						</ul>
+					<li>rgba(0,0,255,1) is <span class="solid_blue">solid blue</span></li>
+					<li>rgba(0,0,255,0.6) is <span class="trans_white">transparent blue</span></li>
+					<li>rgba(0,0,255,0.4) is <span class="very_trans_blue">even more transparent</span></li>
 				</ul>
-			<li>Support</li>
+		</ul>
+	<li>Support</li>
+		<ul>
+			<li>Plays well with all modern browsers and is 84.89% globally supported</li>
+			<li>Renders in:</li>
 				<ul>
-					<li>Plays well with all modern browsers and is 84.89% globally supported</li>
-					<li>Renders in:</li>
-						<ul>
-							<li>Chrome (any version)</li>
-							<li>Mozilla Firefox 3.x and up</li>
-							<li>Safari 3.x and up</li>
-							<li>Mobile Safari</li>
-							<li>Opera 10.x and up</li>
-							<li>Internet Explorer 9 Preview</li>
-							<li>BlackBerry Storm Browser</li>
-						</ul>
-				<li>Renders solid color in:</li>
-					<ul>
-						<li>Mozilla Firefox 2.x and down</li>
-						<li>Safari 2.x and down</li>
-						<li>Opera 9.x and down</li>
-						<li>Internet Explorer 6, 7, and 8</li>
-						<li>Netscape</li>
-					</ul>
-				<li>Renders no color in:</li>
-					<ul>
-						<li>Internet Explorer 5.5 and down</li>
-						<li>(Fortunately very few users continue to use this version)
-					</ul>
-				<li>Trick to render transparency while avoiding no color rendering in IE5.5 is:</li>
-					<ul>
-						<li>style="background: rgb(250, 0, 0); background: rgba(250, 0, 0, 0.5);</li>
-						<li>OR (because IE allows for conditional statments)</li>
-						<li><script src="https://gist.github.com/kthffmn/8188155.js"></script>From <a href="http://css-tricks.com/rgba-browser-support/">CSS Tricks</a>
-					</ul>
+					<li>Chrome (any version)</li>
+					<li>Mozilla Firefox 3.x and up</li>
+					<li>Safari 3.x and up</li>
+					<li>Mobile Safari</li>
+					<li>Opera 10.x and up</li>
+					<li>Internet Explorer 9 Preview</li>
+					<li>BlackBerry Storm Browser</li>
 				</ul>
-			</ul>
-		</div>
-
-
-
+			<li>Renders solid color in:</li>
+				<ul>
+					<li>Mozilla Firefox 2.x and down</li>
+					<li>Safari 2.x and down</li>
+					<li>Opera 9.x and down</li>
+					<li>Internet Explorer 6, 7, and 8</li>
+					<li>Netscape</li>
+				</ul>
+			<li>Renders no color in:</li>
+				<ul>
+					<li>Internet Explorer 5.5 and down</li>
+					<li>(Fortunately very few users continue to use this version)
+				</ul>
+			<li>Trick to render transparency while avoiding no color rendering in IE5.5 is:</li>
+				<ul>
+					<li>style="background: rgb(250, 0, 0); background: rgba(250, 0, 0, 0.5);</li>
+					<li>OR (because IE allows for conditional statments)</li>
+					<li class= "code" ><script src="https://gist.github.com/kthffmn/8188155.js"></script>From <a href="http://css-tricks.com/rgba-browser-support/">CSS Tricks</a>
+					</li>
+				</ul>
+		</ul>
+</ul>
 
 
 <h2>HEX</h2>

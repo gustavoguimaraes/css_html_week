@@ -3,24 +3,38 @@
 
 body {
 	color: black;
-	background-color: #568EA9;
-	background-color: #ffffff;
+	background-color: #FFFFFF;
 	font-size: 1.5em;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-top: 100px;
 }
 
 h1 {
 	font-family: helvetica, serif;
 	color: black;
+	text-align: center;
+	font-size: 3.0em;
+	margin-bottom: 40px;
 }
 
 h2 {
 	font-family: helvetica, serif;
 	color: #4D8098;
+	margin-left: 20px;
 }
 
 li {
 	line-height: 1.5em;
 }
 
+.RGBA, p {
+	margin-left: 50px;
+}
 
+pre {
+	color:black;
+}
+
+#gist8188155 {
+	width: 90%;
+}
