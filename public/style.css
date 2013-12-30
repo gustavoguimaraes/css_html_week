@@ -2,82 +2,25 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
-	color: white;
+	color: black;
 	background-color: #568EA9;
+	background-color: #ffffff;
 	font-size: 1.5em;
-	line-height: 1.4em;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1 {
-	text-align: left;
-	font-family: 'Lobster', serif;
-	color: white;
-	background-color: #568EA9;
-	font-size: 2em;
-	margin-left: 8%;
-	display: inline;
+	font-family: helvetica, serif;
+	color: black;
 }
 
 h2 {
-	text-align: left;
-	font-family: 'Lobster', serif;
+	font-family: helvetica, serif;
 	color: #4D8098;
-	font-size: 1.3em;
 }
 
-.black > i { color: #585858; }
-.white > i { color: white; }
-.blue > i { color: #568EA9; }
-.dark-gray > i { color: #484848; }
-.light-gray > i { color: #808080; }
-
-A:link {text-decoration: none; color: #888888}
-A:visited {text-decoration: none; color: #484848}
-A:active {text-decoration: none; color: #484848}
-A:hover {text-decoration: none; color: #484848}
-
-.header {
-	margin-top: 3%;
-}
-.links {
-	background-color: #568EA9;
-	position: relative;
-	top: 5%;
+li {
+	line-height: 1.5em;
 }
 
-.about {
-	background-color: white;
-	color: #686868;
-	margin-left: 5%;
-	margin-right: 5%;
-	margin-top: 3%;
-	padding: 2%;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-}
-
-.projects {
-	background-color: white;
-	color: #888888;
-	text-align: center;
-	margin-left: 5%;
-	margin-right: 5%;
-	margin-top: 3%;
-	padding: 2%;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-}
-
-td {
-	text-align:center;
-	background-color: white;
-	width: 9%;
-	font-size: 0.75em;
-	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-th {
-	height:15%;
-}
 
