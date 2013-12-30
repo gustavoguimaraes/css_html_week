@@ -3,7 +3,11 @@
 
 body {
 	color: white;
+<<<<<<< HEAD
 	background-color: #568EA9;
+=======
+	background-color: #ffffff;
+>>>>>>> 251d3e4bd31b50b509b5492282a0118ef12ec405
 	font-size: 1.5em;
 	line-height: 1.4em;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -12,8 +16,12 @@ body {
 h1 {
 	text-align: left;
 	font-family: 'Lobster', serif;
+<<<<<<< HEAD
 	color: white;
 	background-color: #568EA9;
+=======
+	color: black;
+>>>>>>> 251d3e4bd31b50b509b5492282a0118ef12ec405
 	font-size: 2em;
 	margin-left: 8%;
 	display: inline;
