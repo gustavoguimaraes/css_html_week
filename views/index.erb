@@ -1,13 +1,9 @@
 <h1>Colors</h1>
 
 <h2>RGBA</h2>
-<<<<<<< HEAD
-<p>
-
-=======
 <p>"Red Green Blue Alpha transparency"
 	<ul>
-		<li>RGB</li>
+		<li>"RGB"</li>
 		<ul>
 			<li>Values range from 0 to 255</li>
 			<li>0 is no color and 255 is all the color</li>
@@ -18,20 +14,20 @@
 				<li>rgb(255,255,255) is <span class="white">white</span></li>
 			</ul>
 		</ul>
-		<li>A</li>
+		<li>"A"</li>
 		<ul>
 			<li>Values range from 0 to 1</li>
 			<li>0 is completely transparent and 1 is completely opaque</li>
 			<li>Due to these properties:</li>
 			<ul>
-				<li>rgb(0,0,255,1) is <span class="solid_blue">solid blue</span></li>
-				<li>rgb(0,0,255,0.6) is <span class="trans_white">transparent blue</span></li>
-				<li>rgb(0,0,255,0.4) is <span class="very_trans_blue">even more transparent</span></li>
+				<li>rgba(0,0,255,1) is <span class="solid_blue">solid blue</span></li>
+				<li>rgba(0,0,255,0.6) is <span class="trans_white">transparent blue</span></li>
+				<li>rgba(0,0,255,0.4) is <span class="very_trans_blue">even more transparent</span></li>
 			</ul>
 		</ul>
 		<li>Support</li>
 		<ul>
-			<li>84.89% globally supported</li>
+			<li>Plays well with all modern browsers and is 84.89% globally supported</li>
 			<li>Renders in:</li>
 			<ul>
 				<li>Chrome (any version)</li>
@@ -53,10 +49,15 @@
 			<li>Renders no color in:</li>
 			<ul>
 				<li>Internet Explorer 5.5 and down</li>
+				<li>(Fortunately very few users continue to use this version)
+			</ul>
+			<li>Here's a trick to render transparency while avoiding no color rendering in IE5.5 is:</li>
+			<ul>
+				<li>style="background: rgb(250, 0, 0); background: rgba(250, 0, 0, 0.5);</li>
 			</ul>
 		</ul>
+
 	</ul>
->>>>>>> 251d3e4bd31b50b509b5492282a0118ef12ec405
 </p>
 <h2>HEX</h2>
 <p>
@@ -66,12 +67,8 @@
 <p>
 
 </p>
-<<<<<<< HEAD
-
 <pre><code>
 #some-element {
 background-color: hsla(170, 50%, 45%, 1);
 }
 </code></pre>
-=======
->>>>>>> 251d3e4bd31b50b509b5492282a0118ef12ec405
