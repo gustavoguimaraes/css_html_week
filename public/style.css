@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  color: black;
+  background-color: #FFFFFF;
+  font-size: 1.5em;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 100px;
+}
+
+h1 {
+  font-family: helvetica, serif;
+  color: black;
+  text-align: center;
+  font-size: 3.0em;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-family: helvetica, serif;
+  color: #4D8098;
+  margin-left: 20px;
+}
+
+li {
+  line-height: 1.5em;
+}
+
+.RGBA, .HSLA, .HEX, p{
+  margin-left: 50px;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+pre {
+  color:black;
+  width:90%;
+  margin-left: 50px;
+}
+
+#gist8188155 {
+  width: 90%;
+}
