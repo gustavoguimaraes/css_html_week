@@ -55,37 +55,28 @@
 			<li>Trick to render transparency while avoiding no color rendering in IE5.5 is:</li>
 				<ul>
 					<li>style="background: rgb(250, 0, 0); background: rgba(250, 0, 0, 0.5);</li>
-					<li>OR (because IE allows for conditional statments)</li>
-					<li class= "code" ><script src="https://gist.github.com/kthffmn/8188155.js"></script>From <a href="http://css-tricks.com/rgba-browser-support/">CSS Tricks</a>
-					</li>
+            <pre>
+              <ol>
+                <li>
+              <code>
+              .color-block { 
+                  background:transparent;
+                  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50990000,endColorstr=#50990000); 
+                  zoom: 1;
+                    } 
+            </code>
+            </li>
+              </ol>
+          </pre>
 				</ul>
 		</ul>
 </ul>
 
-</p>
-
-<h3>HSLA (Stands for Hue Saturation Lightness alpha)</h3>
-<p>
- <ol>
-	<li>Hsla resembles RGBA</li> 
-
-	<li>Declares colors by looking at the color wheel.</li> 
-
-	<li>Saturation expressed as a percentage.</li> 
-
-	<li>Lightness is also expressed as a percentage.</li>
-
-	</li>Supported by any browser that supports RGBA</li>
-</ol>
-
-
-
-
 
 <h2>HEX</h2>
 <h2>HSLA</h2>
-<pre><code>
+<ul><pre><code>
 #some-element {
 background-color: hsla(170, 50%, 45%, 1);
 }
-</code></pre>
+</code></pre></ul>
