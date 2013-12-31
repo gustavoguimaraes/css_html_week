@@ -62,30 +62,57 @@
 		</ul>
 </ul>
 
-</p>
 
-<h3>HSLA (Stands for Hue Saturation Lightness alpha)</h3>
-<p>
- <ol>
+<h2>HEX: hexadecimal</h2>
+
+<p class="HEX">Hex is a way of describing colors, it is a six-digit hexadecimal number starting with #, with each digit going from 0-F. The digits are read in pairs of two, and represent the red, green, and blue values, respectively.</p>
+
+<h2>HSLA (Stands for Hue Saturation Lightness alpha)</h2>
+<ul class="HSLA">
 	<li>Hsla resembles RGBA</li> 
-
 	<li>Declares colors by looking at the color wheel.</li> 
-
 	<li>Saturation expressed as a percentage.</li> 
-
 	<li>Lightness is also expressed as a percentage.</li>
-
 	</li>Supported by any browser that supports RGBA</li>
-</ol>
-
-
-
-
-
-<h2>HEX</h2>
-<h2>HSLA</h2>
+</ul>
 <pre><code>
-#some-element {
-background-color: hsla(170, 50%, 45%, 1);
-}
+	Example: Hex 
+	p  {
+		color: #25547f;
+	   }
+
+	Example: RGBA
+	p {
+		color: rgba(37, 84, 127, 1);
+	  }
+
+	Example: HSLA:
+	p {
+		color: hsla(209, 55%, 32%, 1);
+      }
 </code></pre>
+
+<h2>Which one should you use?</h2>
+<p>HEX - Very attractive because it’s short and simple to remember and type out. But HEX might not work for you in all situations, which is when you may wish to consider one of the other two methods.</p>
+
+<p>RGBA is well - known and supported in older versions of IE (9 and older). It has an additional field for alpha values which come in handy when you want to work with opacity.</p>
+
+<p>HSLa is a newer, more intuitive way to work with colors. Unlike RGBA where we have to mesh some numbers around to get the color we want. HSLa also includes an alpha value for opacity.</p>
+
+<p>**Note** Since HSLa is newer it isn’t supported by older versions of IE. You may need to rely on some fallback codes and this could mean bringing in RGBA or HEX.</p>
+
+<p>Typical fallback code for an HSLa statement</p>
+
+<pre><code>
+	p {
+	color:	#25547f;
+	color: 	hsla(209, 55%, 32%, 1);
+ }
+</code>
+</pre>
+
+<h2>Color tools</h2>
+<p><a href="http://colorschemedesigner.com/">colorschemedesigner</a> - Allows you to use RGB or HEX colors and find color compliments, etc.</p>
+
+<p><a href="http://www.workwithcolor.com/hsl-color-picker-01.htm">Work With Color</a> - Can also see the different translations from RGB to HEX to HLSA here:</a></p>
+
