@@ -1,0 +1,26 @@
+ a {
+  color:#484C4B;
+  text-decoration:none;
+  font: 24px/1em 'Droid Sans', sans-serif;
+  font-size: 2em;
+  background-color: #DDDDDD;
+  padding: 0.5em;
+  margin: 1em;
+  border: solid 1px #484C4B;
+  display: inline-block;
+ font-weight: bold;
+  outline: solid black 1px;
+  outline-offset: 5px;
+  -webkit-border-radius: 9px;
+}
+
+a:before {
+  content: "\2605";
+  color:#848486;
+}
+
+
+a:after {
+  content: "\2605";
+  color:#848486;
+}
