@@ -1,0 +1,29 @@
+body {
+  padding: 30px;
+}
+header {
+  background: lightblue;
+}
+main {
+  position: relative;
+}
+section {
+  background: lightgreen;
+  width: 75%;
+}
+article {
+  background: white;
+  margin: 0 0 1rem 0;
+}
+aside {
+  background: pink;
+  width: 22%;
+  height: 75%;
+  position: absolute;
+  bottom: 0;
+  right: 0; 
+}
+
+header, article, section, .module {
+  padding: 1rem;
+}

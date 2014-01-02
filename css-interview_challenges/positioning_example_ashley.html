@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+    <title> positioning! </title>
+    <style>
+      div {
+        background-color: blue;
+        margin-bottom: 20px;
+      }
+
+      /* relative position */
+      .relative .positioned {
+        position: relative;
+        top: 100px;
+      }
+
+      /* absolute */
+      .absolute {
+        position: relative;
+      }
+
+      .absolute .positioned {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+
+      /* fixed position */
+      .fixed .positioned {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+      }
+    </style>
+  </head>
+  <body>
+      <div class="static">
+        <h1>Static(default)</h1>
+        <img src="http://placekitten.com/200/200" />
+        <img src="http://placekitten.com/300/400" />
+        <img src="http://placekitten.com/200/200" />
+      </div>
+      <div class="relative">
+        <h1>Relative</h1>
+        <img src="http://placekitten.com/200/200" />
+        <img class="positioned" src="http://placekitten.com/300/400" />
+        <img src="http://placekitten.com/200/200" />
+      </div>
+      <div class="absolute">
+        <h1>Absolute</h1>
+        <img src="http://placekitten.com/200/200" />
+        <img class="positioned" src="http://placekitten.com/300/400" />
+        <img src="http://placekitten.com/200/200" />
+      </div>
+      <div class="fixed">
+        <h1>Fixed</h1>
+        <img src="http://placekitten.com/200/200" />
+        <img class="positioned" src="http://placekitten.com/300/400" />
+        <img src="http://placekitten.com/200/200" />
+      </div>
+  </body>
+</html>
