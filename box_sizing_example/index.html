@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Box Sizing example</title>
+    <style>
+    .small {
+      width:50%;
+      margin:20px auto;
+      background-color: pink;
+      -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    }
+
+    .bigger {
+      width:50%;
+      margin:20px auto;
+      padding: 5%;
+      border-width: 5%;
+      background-color: pink;
+      -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    }
+    </style>
+  </head>
+  <body>
+
+    <div class="small">
+    This is a box
+    </div>
+
+    <div class="bigger">
+    This is a bigger box
+    </div>
+
+  </body>
+</html>
